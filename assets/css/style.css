@@ -331,3 +331,8 @@ nav::after {
 
 .section-projects {
 }
+
+::-webkit-scrollbar {
+	display: none;
+}
+/* subject to change */
