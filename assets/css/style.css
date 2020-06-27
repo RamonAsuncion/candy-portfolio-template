@@ -299,14 +299,20 @@ nav::after {
 }
 
 .button {
-	background-color: #fff;
 	border: none;
-	color: #777;
 	padding: 1.5rem 4rem;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 10rem;
+}
+
+.button--white {
+	background-color: #fff;
+	color: #777;
+}
+
+.button-animate {
 }
 
 .composition {
