@@ -208,7 +208,7 @@ nav::after {
 	letter-spacing: 0.6rem;
 	animation: leftIn 0.75s ease-out;
 }
-@media (max-width: 37.5em) {
+@media (max-width: 37em) {
 	.heading-main {
 		letter-spacing: 1rem;
 		font-family: 5rem;
@@ -221,7 +221,7 @@ nav::after {
 	letter-spacing: 0.3rem;
 	animation: rightIn 0.75s ease-out;
 }
-@media (max-width: 37.5em) {
+@media (max-width: 37em) {
 	.heading-secondary {
 		letter-spacing: 0.5rem;
 	}
@@ -234,7 +234,7 @@ nav::after {
 	margin-bottom: 10vh;
 }
 
-@media (max-width: 56.25em) {
+@media (max-width: 56em) {
 	.about-section {
 		padding: 20rem 4rem;
 	}
@@ -254,13 +254,13 @@ nav::after {
 	margin-bottom: 4rem;
 }
 
-@media (max-width: 56.25em) {
+@media (max-width: 56em) {
 	.row:not(:last-child) {
 		margin-bottom: 0;
 	}
 }
 
-@media (max-width: 56.25em) {
+@media (max-width: 56em) {
 	.row {
 		max-width: 50rem;
 	}
