@@ -194,6 +194,18 @@ nav::after {
 	transform: translate(-50%, -50%);
 }
 
+.second-header {
+	letter-spacing: 3px;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	background-image: linear-gradient(to right, #64495e, #4c5f9a);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
 .heading-primary {
 	font-family: 'Lato', sans-serif;
 	color: #fff;
@@ -214,15 +226,15 @@ nav::after {
 		font-family: 5rem;
 	}
 }
-.heading-secondary {
+.heading-main--second {
 	display: block;
-	font-size: 2.3rem;
+	font-size: 2.5rem;
 	font-weight: 400;
 	letter-spacing: 0.3rem;
 	animation: rightIn 0.75s ease-out;
 }
 @media (max-width: 37em) {
-	.heading-secondary {
+	.heading-main--second {
 		letter-spacing: 0.5rem;
 	}
 }
@@ -238,12 +250,6 @@ nav::after {
 	.about-section {
 		padding: 20rem 4rem;
 	}
-}
-
-.second-header {
-	font-size: 3.5rem;
-	font-weight: 700;
-	display: inline-block;
 }
 
 .row {
@@ -294,6 +300,7 @@ nav::after {
 }
 
 .row .col-1-2 {
+	width: calc((100% - 5rem) / 2); /*fix this */
 }
 
 .button {
@@ -315,6 +322,11 @@ nav::after {
 
 .composition {
 	position: relative;
+}
+
+.composition-photo {
+	border-radius: 2px;
+	position: absolute;
 }
 
 .heading {
