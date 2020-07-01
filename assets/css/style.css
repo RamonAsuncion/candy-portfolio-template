@@ -14,12 +14,12 @@ html {
 		font-size: 56.25%;
 	}
 }
-@media (max-width: 56.25em) {
+@media (max-width: 56em) {
 	html {
 		font-size: 50%;
 	}
 }
-@media (min-width: 112.5em) {
+@media (min-width: 112em) {
 	html {
 		font-size: 75%;
 	}
