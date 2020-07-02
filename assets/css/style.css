@@ -130,7 +130,7 @@ nav::after {
 }
 
 .box {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	background-color: rgba(255, 255, 255, 0.8);
 	font-size: 1.5rem;
 	padding: 2.5rem;
@@ -139,13 +139,16 @@ nav::after {
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 	transition: transform 0.3s;
 }
-@media (max-width: 56.25em) {
+
+@media (max-width: 56em) {
 	.box {
 		padding: 1rem;
 		margin: 0 4rem;
 	}
 }
-.box__icon {
+
+/*This is so I can add the image of a server to it */
+.box-icon {
 	font-size: 6rem;
 	margin-bottom: 0.5rem;
 	background-image: linear-gradient(to right, #64495e, #4c5f9a);
@@ -153,14 +156,17 @@ nav::after {
 	-webkit-background-clip: text;
 	color: transparent;
 }
-@media (max-width: 56.25em) {
-	.box__icon {
+
+@media (max-width: 56em) {
+	.box-icon {
 		margin-bottom: 0;
 	}
 }
+
 .box:hover {
 	transform: translateY(-1.5rem) scale(1.03);
 }
+
 .box * {
 	list-style: none;
 }
