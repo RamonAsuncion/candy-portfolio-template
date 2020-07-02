@@ -82,7 +82,6 @@ a {
 	display: inline-block;
 	margin-left: 70px;
 	padding-top: 23px;
-
 	position: relative;
 }
 
@@ -208,12 +207,12 @@ nav::after {
 
 @media (56em) {
 	.second-header {
-		font-size: ;
+		font-size: 3rem;
 	}
 }
 @media (37em) {
 	.second-header {
-		font-size: ;
+		font-size: 2.5rem;
 	}
 }
 
