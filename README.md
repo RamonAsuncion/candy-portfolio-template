@@ -8,7 +8,7 @@ fix row css
 
 replace unnecessary complex css code
 
-fix col-1-of-2-->
+fix col-1-2-->
 
 fix box transform + the icon to add the webpage one
 
