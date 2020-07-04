@@ -351,7 +351,7 @@ nav::after {
 
 .composition {
 }
-
+/* for the images */
 .composition-photo {
 	border-radius: 2px;
 	position: absolute;
@@ -404,3 +404,9 @@ nav::after {
 	display: none;
 }
 /* subject to change */
+
+.footer {
+	font-size: 1.5rem;
+	padding: 2rem 0;
+	/*top and bottom 2rem/ right and left 0*/
+}
