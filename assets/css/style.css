@@ -121,8 +121,9 @@ a {
 	font-weight: 400;
 	text-transform: uppercase;
 	position: absolute;
-	top: 2.3%;
+	top: 2.5;
 	left: 1.7%;
+	/* fix this top and left */
 }
 
 nav::after {
@@ -352,12 +353,25 @@ nav::after {
 .button-animate {
 }
 
-.composition {
-}
 /* for the images */
-.composition-photo {
+.composition {
+	position: relative;
+	width: 50%;
 	border-radius: 2px;
 	position: absolute;
+	transition: all 0.2s;
+}
+
+.composition_photo--1 {
+	top: 0;
+	left: 0;
+	width: 35%;
+}
+
+.composition_photo--2 {
+	top: 0;
+	left: 65%;
+	width: 35%;
 }
 
 .heading {
@@ -417,4 +431,10 @@ nav::after {
 	padding: 2rem 0;
 	background-color: #4c5f9a;
 	/*top and bottom 2rem/ right and left 0*/
+}
+
+.footer-linked {
+	color: #f1f1f1;
+	text-decoration: none;
+	display: inline-block;
 }
