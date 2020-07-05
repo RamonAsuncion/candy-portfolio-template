@@ -97,7 +97,7 @@ a {
 	display: block;
 	height: 5px;
 	width: 100%;
-	background-color: rgb(15, 15, 15);
+	background-color: rgb(0, 0, 0);
 
 	position: absolute;
 	top: 0;
@@ -121,7 +121,7 @@ a {
 	font-weight: 400;
 	text-transform: uppercase;
 	position: absolute;
-	top: 1.6%;
+	top: 2.3%;
 	left: 1.7%;
 }
 
@@ -346,6 +346,9 @@ nav::after {
 	color: #777;
 }
 
+.button:hover {
+}
+
 .button-animate {
 }
 
@@ -401,7 +404,11 @@ nav::after {
 }
 
 ::-webkit-scrollbar {
-	display: none;
+	width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888888;
 }
 /* subject to change */
 
