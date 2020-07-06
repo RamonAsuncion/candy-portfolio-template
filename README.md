@@ -1,6 +1,6 @@
-Goals: 
+# Goals: 
 
-I think the @import font (I have the Google API and the folder).
+!I think the @import font (I have the Google API and the folder).
 
 fix row css
 
