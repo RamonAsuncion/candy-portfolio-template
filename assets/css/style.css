@@ -433,8 +433,22 @@ nav::after {
 	/*top and bottom 2rem/ right and left 0*/
 }
 
+.footer-navigation {
+	border-top: 1px;
+	color: #f1f1f1;
+	padding-top: 2rem;
+	display: inline-block;
+}
+
 .footer-linked {
 	color: #f1f1f1;
 	text-decoration: none;
 	display: inline-block;
+}
+
+.footer-list {
+	list-style: none;
+}
+
+.footer-list-item {
 }
