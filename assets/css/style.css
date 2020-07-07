@@ -448,6 +448,14 @@ nav::after {
 	margin-right: 1.5rem;
 }
 
+.footer-box-logo {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.footer-logo {
+}
+
 .created-by {
 	border-top: 1px solid #f1f1f1;
 	padding-top: 2rem;
