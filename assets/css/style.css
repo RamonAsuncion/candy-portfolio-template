@@ -222,17 +222,6 @@ nav::after {
 	color: transparent;
 }
 
-@media (max-width: 56em) {
-	.second-header {
-		font-size: 3rem;
-	}
-}
-@media (max-width: 37em) {
-	.second-header {
-		font-size: 2.5rem;
-	}
-}
-
 .heading-primary {
 	font-family: 'Lato', sans-serif;
 	color: #fff;
@@ -439,10 +428,10 @@ nav::after {
 }
 
 .footer-navigation {
-	border-top: 1px;
-	color: #f1f1f1;
+	border-top: 1px solid #f1f1f1;
 	padding-top: 2rem;
 	display: inline-block;
+	color: #f1f1f1;
 }
 
 .footer-linked {
@@ -457,4 +446,11 @@ nav::after {
 
 .footer-list-item:not(:last-child) {
 	margin-right: 1.5rem;
+}
+
+.created-by {
+	border-top: 1px solid #f1f1f1;
+	padding-top: 2rem;
+	float: right;
+	color: #a6ff00;
 }
