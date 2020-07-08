@@ -292,6 +292,7 @@ nav::after {
 	}
 }
 
+/*fix this row code */
 .row::after {
 	content: '';
 	display: table;
@@ -341,12 +342,17 @@ nav::after {
 }
 
 .button-animate {
+	scroll-behavior: smooth;
 }
 
 /* for the images */
 .composition {
 	position: relative;
+}
+
+.composition-photo {
 	width: 50%;
+	-webkit-filter: drop-shadow(1px 1px 2px #222222);
 	border-radius: 2px;
 	position: absolute;
 	transition: all 0.2s;
