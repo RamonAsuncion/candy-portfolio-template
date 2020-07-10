@@ -340,6 +340,7 @@ nav::after {
 }
 
 .button:hover {
+	transform: translateY(-0.2rem);
 }
 
 .button-animate {
@@ -459,7 +460,8 @@ nav::after {
 	text-align: center;
 }
 
-.footer-logo {
+.footer-logo:hover {
+	transform: scale(1.3);
 }
 
 .created-by {
