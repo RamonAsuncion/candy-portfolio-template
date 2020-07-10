@@ -325,7 +325,8 @@ nav::after {
 	width: calc((100% - 5rem) / 2); /*fix this */
 }
 
-.button {
+.button:link,
+button:visited {
 	border: none;
 	padding: 1.5rem 4rem;
 	text-align: center;
@@ -334,13 +335,17 @@ nav::after {
 	border-radius: 10rem;
 }
 
+.button:hover {
+	transform: translateY(-0.5rem);
+	box-shadow: ;
+}
+
+.button:active {
+}
+
 .button--white {
 	background-color: #fff;
 	color: #777;
-}
-
-.button:hover {
-	transform: translateY(-0.2rem);
 }
 
 .button-animate {
