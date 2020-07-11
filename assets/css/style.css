@@ -333,15 +333,16 @@ button:visited {
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 9rem;
+	transition: all 0.2s;
 }
 
 .button:hover {
-	transform: translateY(-0.5rem);
-	box-shadow: 0 1rem 3rem 1rem rgba(0, 0, 0, 0.3);
+	transform: translateY(-0.2rem);
+	box-shadow: 0 1rem 2.5rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
 .button:active {
-	transform: translateY(-0.15);
+	transform: translateY(-0.1);
 	box-shadow: 0 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 
@@ -350,8 +351,10 @@ button:visited {
 	color: #777;
 }
 
+/*check this in future */
 .button-animate {
-	animation: ease-out 0.5s;
+	animation: ease-out 1s;
+	animation-fill-mode: backwards;
 }
 
 /* for the images */
