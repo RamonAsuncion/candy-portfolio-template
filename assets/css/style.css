@@ -351,6 +351,7 @@ button:visited {
 }
 
 .button-animate {
+	animation: ease-out 0.5s;
 }
 
 /* for the images */
