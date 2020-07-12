@@ -27,6 +27,39 @@ html {
 	}
 }
 
+/*Keyframes */
+@keyframes bottomIn {
+	0% {
+		transform: translateY(-5rem);
+		opacity: 0;
+	}
+	80% {
+		transform: translateY(-0.5rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes leftIn {
+	0% {
+	}
+	80% {
+	}
+	100% {
+	}
+}
+
+@keyframes rightIn {
+	0% {
+	}
+	80% {
+	}
+	100% {
+	}
+}
+
 .center-text {
 	text-align: center;
 }
@@ -353,7 +386,7 @@ button:visited {
 
 /*check this in future */
 .button-animate {
-	animation: ease-out 1s;
+	animation: bottomIn 1s ease-out 1s;
 	animation-fill-mode: backwards;
 }
 
