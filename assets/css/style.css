@@ -279,7 +279,7 @@ nav::after {
 	font-size: 6rem;
 	font-weight: 400;
 	letter-spacing: 0.6rem;
-	animation: leftIn 0.75s ease-out;
+	animation: leftIn 0.8s ease-out;
 }
 
 @media (max-width: 37em) {
@@ -294,7 +294,7 @@ nav::after {
 	font-size: 2.5rem;
 	font-weight: 400;
 	letter-spacing: 0.3rem;
-	animation: rightIn 0.75s ease-out;
+	animation: rightIn 0.8s ease-out;
 }
 
 @media (max-width: 37em) {
