@@ -30,33 +30,43 @@ html {
 /*Keyframes */
 @keyframes topIn {
 	0% {
-		transform: translateY(-5rem);
+		transform: translateY(-4rem);
 		opacity: 0;
 	}
 	80% {
-		transform: translateY(-0.5rem);
+		transform: translateY(0.5rem);
 	}
 	100% {
-		opacity: 1;
 		transform: translateY(0);
+		opacity: 1;
 	}
 }
 
 @keyframes leftIn {
 	0% {
+		transform: translateX(-4rem);
+		opacity: 0;
 	}
 	80% {
+		transform: translateX(0.5rem);
 	}
 	100% {
+		transform: translateX(0);
+		opacity: 1;
 	}
 }
 
 @keyframes rightIn {
 	0% {
+		opacity: 0;
+		transform: translateX(4rem);
 	}
 	80% {
+		transform: translateX(0.5rem);
 	}
 	100% {
+		transform: translateX(0);
+		opacity: 1;
 	}
 }
 
@@ -386,7 +396,7 @@ button:visited {
 
 /*check this in future */
 .button-animate {
-	animation: topIn 1s ease-out 1s;
+	animation: topIn 0.8s ease-out 1s;
 	animation-fill-mode: backwards;
 }
 
