@@ -28,7 +28,7 @@ html {
 }
 
 /*Keyframes */
-@keyframes bottomIn {
+@keyframes topIn {
 	0% {
 		transform: translateY(-5rem);
 		opacity: 0;
@@ -386,7 +386,7 @@ button:visited {
 
 /*check this in future */
 .button-animate {
-	animation: bottomIn 1s ease-out 1s;
+	animation: topIn 1s ease-out 1s;
 	animation-fill-mode: backwards;
 }
 
