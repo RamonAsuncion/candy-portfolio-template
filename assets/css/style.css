@@ -438,7 +438,7 @@ button:visited {
 }
 
 .composition-photo:hover {
-	transform: ;
+	transform: scale(1px) translateY(-0.3rem);
 }
 
 .heading {
