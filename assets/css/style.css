@@ -433,8 +433,12 @@ button:visited {
 
 .composition_photo--2 {
 	top: 0;
-	left: 65%;
+	left: 45%;
 	width: 35%;
+}
+
+.composition-photo:hover {
+	transform: ;
 }
 
 .heading {
