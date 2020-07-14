@@ -422,7 +422,7 @@ button:visited {
 	-webkit-filter: drop-shadow(1px 1px 2px #222222);
 	border-radius: 2px;
 	position: absolute;
-	transition: all 0.2s;
+	transition: all 0.3;
 }
 
 .composition_photo--1 {
@@ -438,7 +438,7 @@ button:visited {
 }
 
 .composition-photo:hover {
-	transform: scale(1px) translateY(-0.3rem);
+	transform: translateY(-0.4rem); /* add scale*/
 }
 
 .heading {
