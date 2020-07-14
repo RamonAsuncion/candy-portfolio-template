@@ -266,6 +266,18 @@ nav::after {
 	color: transparent;
 }
 
+@media (max-width: 80rem) {
+	.second-header {
+		margin: 30px;
+	}
+}
+
+@media (max-width: 56rem) {
+	.second-header {
+		margin: 70px;
+	}
+}
+
 .heading-primary {
 	font-family: 'Lato', sans-serif;
 	color: #fff;
