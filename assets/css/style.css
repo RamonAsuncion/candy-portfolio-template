@@ -396,7 +396,7 @@ button:visited {
 
 /*check this in future */
 .button-animate {
-	animation: topIn 0.8s ease-out 1s;
+	animation: topIn 0.7s ease-out 1s;
 	animation-fill-mode: backwards;
 }
 
