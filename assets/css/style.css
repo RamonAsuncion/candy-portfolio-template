@@ -388,6 +388,7 @@ button:visited {
 	display: inline-block;
 	border-radius: 9rem;
 	transition: all 0.2s;
+	scroll-behavior: smooth;
 }
 
 .button:hover {
@@ -438,7 +439,7 @@ button:visited {
 
 .composition-photo:hover {
 	transform: translateY(-0.4rem);
-	-webkit-filter: drop-shadow(2px 2px 5px #222222);
+	-webkit-filter: drop-shadow(2px 2px 4px #222222);
 }
 
 .heading {
