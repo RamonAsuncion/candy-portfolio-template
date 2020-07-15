@@ -23,4 +23,4 @@ finish the composition attribute in the style.css
 
 fix responsive for back end and front end title
 
-FINISH THIS (SEPERATE TIME)https://docs.google.com/document/d/1rVM8L2SrzD2VTDmLijL0YjWO1Qr5N7W2d-P8ayw9-0U/edit
+FINISH THIS (SEPERATE TIME)https://docs.google.com/document/d/1rVM8L2SrzD2VTDmLijL0YjWO1Qr5N7W2d-P8ayw9-0U/edit?usp=sharing
