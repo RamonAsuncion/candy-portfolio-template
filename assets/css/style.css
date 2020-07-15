@@ -32,7 +32,7 @@ html {
 		transform: translateY(-4rem);
 		opacity: 0;
 	}
-	80% {
+	75% {
 		transform: translateY(0.5rem);
 	}
 	100% {
@@ -46,7 +46,7 @@ html {
 		transform: translateX(-4rem);
 		opacity: 0;
 	}
-	80% {
+	75% {
 		transform: translateX(0.5rem);
 	}
 	100% {
@@ -60,7 +60,7 @@ html {
 		opacity: 0;
 		transform: translateX(4rem);
 	}
-	80% {
+	75% {
 		transform: translateX(0.5rem);
 	}
 	100% {
@@ -388,7 +388,6 @@ button:visited {
 	display: inline-block;
 	border-radius: 9rem;
 	transition: all 0.2s;
-	scroll-behavior: smooth;
 }
 
 .button:hover {
@@ -417,6 +416,7 @@ button:visited {
 	position: relative;
 }
 
+/*add smooth scrolling*/
 .composition-photo {
 	width: 50%;
 	-webkit-filter: drop-shadow(1px 1px 2px #222222);
