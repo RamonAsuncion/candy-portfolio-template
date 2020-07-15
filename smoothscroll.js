@@ -1,5 +1,5 @@
-//testing out JS
+//testing out JS for smooth scrolling
 
-$('').on('click', function(e)){
+$('#projects').on('click', function(e)){
     console.log(this.hash);
 }

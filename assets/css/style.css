@@ -225,7 +225,7 @@ nav::after {
 }
 
 .header {
-	height: 95vh;
+	height: 95vh; /*view port height meaning no matter how the browser is sized*/
 	background-image: linear-gradient(
 			to right bottom,
 			rgba(191, 149, 192, 0.938),
