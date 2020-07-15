@@ -438,7 +438,7 @@ button:visited {
 }
 
 .composition-photo:hover {
-	transform: translateY(-0.4rem); /* add scale*/
+	transform: translateY(-0.4rem);
 	-webkit-filter: drop-shadow(2px 2px 5px #222222);
 }
 
