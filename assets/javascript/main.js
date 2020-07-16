@@ -1,7 +1,15 @@
 //testing out JS for smooth scrolling
-$('.contain-project a').on('click', function (e) {
-	console.log(this.has);
-	alert('HELLO!');
-});
-
-//seems to not save *fix later*
+$('.contain-project a').on(
+	'click',
+	function (e) {
+		console.log(this.has);
+		if (this.has !== '') {
+			e.preventDefault();
+			const hash = this.hash;
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top,
+			});
+		}
+	},
+	600
+);
