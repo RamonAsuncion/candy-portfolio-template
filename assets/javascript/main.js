@@ -1,4 +1,4 @@
-//testing out JS for smooth scrolling
+//smooth scrolling
 $('.contain-project a').on('click', function (e) {
 	if (this.has !== '') {
 		e.preventDefault();
