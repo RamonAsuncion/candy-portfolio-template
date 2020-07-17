@@ -28,7 +28,12 @@ $(document).ready(function () {
 		if (this.hash !== '') {
 			e.preventDefault();
 			const hash2 = this.hash;
-			$('html, body').animate({}, 800);
+			$('html, body').animate(
+				{
+					//figure out scroll from bottom to top from footer box icon
+				},
+				800
+			);
 		}
 	});
 });
