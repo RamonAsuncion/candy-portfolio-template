@@ -25,6 +25,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$('footer a').on('click', function (e) {
+		// console.log(this.hash); #top hash (console)
 		if (this.hash !== '') {
 			e.preventDefault();
 			const hash2 = this.hash;
