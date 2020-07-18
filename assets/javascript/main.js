@@ -30,7 +30,7 @@ $(document).ready(function () {
 			const hash2 = this.hash;
 			$('html, body').animate(
 				{
-					//figure out scroll from bottom to top from footer box icon
+					scrollTop: 0,
 				},
 				800
 			);
