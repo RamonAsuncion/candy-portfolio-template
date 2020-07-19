@@ -372,11 +372,12 @@ nav::after {
 @media (max-width: 56em) {
 	.row [class^='col-'] {
 		width: 100% !important;
+		/*keeps everything in the row class at 100% even if the page is resized*/
 	}
 }
 
 .row .col-1-2 {
-	width: calc((100% - 5rem) / 2); /*fix this */
+	width: calc((100% - 5rem) / 2);
 }
 
 .button:link,
@@ -504,7 +505,9 @@ button:visited {
 .footer-box-logo {
 	margin-bottom: 2rem;
 	text-align: center;
-	transition: all 0.2s;
+}
+
+.footer-logo {
 }
 
 .footer-logo:hover {
