@@ -269,7 +269,7 @@ nav::after {
 	}
 }
 
-@media (max-width: 56rem) {
+@media (max-width: 56em) {
 	.second-header {
 		margin: 70px;
 	}
@@ -527,6 +527,7 @@ button:visited {
 	color: #f1f1f1;
 	text-decoration: none;
 	display: inline-block;
+	text-transform: uppercase;
 }
 
 .footer-list-item {
@@ -542,4 +543,10 @@ button:visited {
 	padding-top: 2rem;
 	float: right;
 	color: #a6ff00;
+}
+
+@media (max-width: 55em) {
+	.created-by {
+		float: none;
+	}
 }
