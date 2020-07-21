@@ -449,12 +449,19 @@ button:visited {
 	/*top and bottom 2rem/ right and left 0*/
 }
 
+@media (max-width: 56em) {
+	.footer {
+	}
+}
+
 .footer-box-logo {
 	margin-bottom: 2rem;
 	text-align: center;
 }
 
 .footer-logo {
+	transition: all 0.3s;
+	width: 10rem;
 }
 
 .footer-logo:hover {
@@ -494,7 +501,7 @@ button:visited {
 	color: #a6ff00;
 }
 
-@media (max-width: 55em) {
+@media (max-width: 56em) {
 	.created-by {
 		float: none;
 		max-width: 100%;
