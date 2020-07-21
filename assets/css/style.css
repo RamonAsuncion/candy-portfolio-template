@@ -497,5 +497,8 @@ button:visited {
 @media (max-width: 55em) {
 	.created-by {
 		float: none;
+		max-width: 100%;
+		padding-top: 3rem;
+		text-align: center;
 	}
 }
