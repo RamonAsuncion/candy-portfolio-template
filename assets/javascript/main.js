@@ -5,7 +5,7 @@ $(document).ready(function () {
 	$('.contain-project a').on('click', function (e) {
 		//$(selector).action()
 		if (this.hash !== '') {
-			//if its not equal to an empty string
+			//checks if its not equal to an empty string
 			e.preventDefault();
 			//prevents the default behavior
 			const hash = this.hash;
@@ -17,7 +17,7 @@ $(document).ready(function () {
 					//takes an object and adds the property scroll Top (scrolls from the top)
 					//takes the has value and call the offset method and top
 				},
-				800 //speed of the scroll
+				700 //speed of the scroll
 			);
 		}
 	});
@@ -31,9 +31,9 @@ $(document).ready(function () {
 			const hash2 = this.hash;
 			$('html, body').animate(
 				{
-					scrollTop: 0,
+					scrollTop: 0, //0 is the top position
 				},
-				800
+				700 //speed of the scroll
 			);
 		}
 	});
