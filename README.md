@@ -10,9 +10,6 @@ fix col-1-2
 
 fix box transform + the icon to add the webpage one (css)
 
-planning to take off top right link like the resume, about and other as
-they stop my site from being responsive (maybe keep 1)
-
 when I finish my site maybe support for firefox? -moz
 
 finish the composition attribute in the style.css
