@@ -468,6 +468,13 @@ button:visited {
 	color: #f1f1f1;
 }
 
+@media (max-width: 56em) {
+	.footer-navigation {
+		width: 100%;
+		text-align: center;
+	}
+}
+
 .footer-linked {
 	color: #f1f1f1;
 	text-decoration: none;
@@ -493,7 +500,7 @@ button:visited {
 @media (max-width: 56em) {
 	.created-by {
 		float: none;
-		max-width: 100%;
+		width: 100%;
 		padding-top: 2rem;
 		text-align: center;
 	}
