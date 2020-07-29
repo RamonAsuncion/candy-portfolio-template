@@ -262,6 +262,12 @@ a {
 	}
 }
 
+@media (max-width: 56em) {
+	.second-header {
+		margin-top: 7rem;
+	}
+}
+
 .row {
 	max-width: 95rem;
 	margin: 0 auto;
