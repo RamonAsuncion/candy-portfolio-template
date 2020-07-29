@@ -200,7 +200,8 @@ a {
 	transform: translate(-50%, -50%);
 }
 
-.second-header {
+.second-header,
+.third-header {
 	letter-spacing: 3px;
 	font-size: 3.5rem;
 	text-transform: uppercase;
@@ -364,7 +365,7 @@ button:visited {
 	-webkit-filter: drop-shadow(1px 1px 2px #222222);
 	border-radius: 2px;
 	position: absolute;
-	transition: all 0.4s;
+	transition: all 0.3s;
 }
 
 .composition_photo--1 {
