@@ -1,7 +1,5 @@
 # Final Fixes: 
 
-I think the @import font (delete the font folder)
-
 fix row css (messy code)
 
 replace unnecessary complex css code
@@ -13,8 +11,6 @@ fix box transform + the icon to add the webpage one (css)
 when I finish my site maybe support for firefox? -moz
 
 finish the composition attribute in the style.css
-
-fix responsive for back end and front end title
 
 #Google document on what I learned:
 
