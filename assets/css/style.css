@@ -289,7 +289,6 @@ a {
 	}
 }
 
-/*fix this row code */
 .row::after {
 	content: '';
 	display: table;
@@ -441,7 +440,6 @@ button:visited {
 ::-webkit-scrollbar-thumb {
 	background: #888888;
 }
-/* subject to change */
 
 .footer {
 	font-size: 1.5rem;
