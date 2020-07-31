@@ -24,7 +24,7 @@ html {
 	}
 }
 
-/*Keyframes */
+/*Keyframes (transition for the intro)*/
 @keyframes topIn {
 	0% {
 		transform: translateY(-4rem);
@@ -141,7 +141,7 @@ a {
 	}
 }
 
-/*This is so I can add the image of a server to it */
+/*This is so I can add the image of a server to it (add later)*/
 .box-icon {
 	font-size: 6rem;
 	margin-bottom: 0.5rem;
@@ -199,6 +199,8 @@ a {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+/*back end - front focused and project header */
 
 .second-header,
 .third-header {
@@ -321,6 +323,7 @@ a {
 	width: calc((100% - 5rem) / 2);
 }
 
+/*"projects" button on top*/
 .button:link,
 button:visited {
 	border: none;
@@ -354,7 +357,7 @@ button:visited {
 	animation-fill-mode: backwards;
 }
 
-/* for the images */
+/* for the images (java and python) */
 .composition {
 	position: relative;
 }
@@ -432,7 +435,7 @@ button:visited {
 		padding: 24rem 0 10rem 0;
 	}
 }
-
+/*scroll bar*/
 ::-webkit-scrollbar {
 	width: 7px;
 }
@@ -441,6 +444,7 @@ button:visited {
 	background: #888888;
 }
 
+/*every below is for footer */
 .footer {
 	font-size: 1.5rem;
 	padding: 2rem 0;
