@@ -334,17 +334,20 @@ button:visited {
 	transition: all 0.2s;
 }
 
+/*on button hover*/
 .button:hover {
 	transform: translateY(-0.2rem);
 	box-shadow: 0 0.9rem 4.5rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
+/*comes after hover and when it is clicked follows these rules*/
 .button:active {
 	transform: translateY(-0.1rem);
 	box-shadow: 0 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.3);
 	/* offset-x / offset-y / blur-radius / spread-radius / color */
 }
 
+/*button color white*/
 .button--white {
 	background-color: #fff;
 	color: #777;
