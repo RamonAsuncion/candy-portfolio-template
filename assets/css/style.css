@@ -67,18 +67,22 @@ html {
 	}
 }
 
+/*for usage for no duplicates of these in code*/
 .center-text {
 	text-align: center;
 }
 
+/*for usage for no duplicates of these in code*/
 .margin-bottom-big {
 	margin-bottom: 8rem;
 }
 
+/*for usage for no duplicates of these in code*/
 .margin-bottom-medium {
 	margin-bottom: 4rem;
 }
 
+/*for usage for no duplicates of these in code*/
 .margin-bottom-small {
 	margin-bottom: 1.5rem;
 }
@@ -88,6 +92,7 @@ html {
 	text-align: center;
 }
 
+/*full body tag*/
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -167,12 +172,14 @@ a {
 	list-style: none;
 }
 
+/*the header (hard work and not giving up*/
 .section-text {
 	font-size: 1.6rem;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
+/*part of the <head> tag*/
 .header {
 	height: 95vh; /*view port height meaning no matter how the browser is sized*/
 	background-image: linear-gradient(
