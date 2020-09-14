@@ -17,7 +17,7 @@ $(document).ready(function () {
 					//takes an object and adds the property scroll Top (scrolls from the top)
 					//takes the has value and call the offset method and top
 				},
-				800 //speed of the scroll
+				900 //speed of the scroll
 			);
 		}
 	});
