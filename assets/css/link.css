@@ -1,11 +1,11 @@
 #links {
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: -50px;
 	padding-top: 17px;
 }
 
 #links a img {
-	height: 2em;
+	height: 1.8em;
 	padding: 0.25em;
 	opacity: 0.8;
 }
