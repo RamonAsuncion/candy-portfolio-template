@@ -67,6 +67,15 @@ html {
 	}
 }
 
+/*leads to the Jump bros game"*/
+.temporary-box {
+	position: fixed;
+	right: 0;
+	top: 0;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
 /*for usage for no duplicates of these in code*/
 .center-text {
 	text-align: center;
