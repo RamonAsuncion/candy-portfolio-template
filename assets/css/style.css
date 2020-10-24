@@ -24,6 +24,11 @@ html {
 	}
 }
 
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
 /*Keyframes (transition for the intro)*/
 @keyframes topIn {
 	0% {
@@ -69,7 +74,7 @@ html {
 
 /*leads to the Jump bros game"*/
 .temporary-box {
-	position: fixed;
+	position: absolute;
 	right: 0;
 	top: 0;
 	margin-right: 25px;
@@ -119,11 +124,6 @@ a {
 	text-decoration: none;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-}
-
-#container {
-	width: 90%;
-	margin: 0 auto;
 }
 
 /*skill boxes*/
