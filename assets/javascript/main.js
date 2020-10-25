@@ -14,8 +14,8 @@ $(document).ready(function () {
 				//targets the body and calls the animate method
 				{
 					scrollTop: $(hash).offset().top,
-					//takes an object and adds the property scroll Top (scrolls from the top)
-					//takes the has value and call the offset method and top
+					/*takes an object and adds the property scroll Top (scrolls from the top)
+					takes the has value and call the offset method and top*/
 				},
 				900 //speed of the scroll
 			);
