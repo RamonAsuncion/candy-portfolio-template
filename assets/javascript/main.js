@@ -36,7 +36,7 @@ $(document).ready(function () {
 				{
 					scrollTop: 0, //0 is the top position
 				},
-				700 //speed of the scroll
+				900 //speed of the scroll
 			);
 		}
 	});

@@ -163,6 +163,7 @@ a {
 
 .box:hover {
 	transform: translateY(-1.5rem) scale(1.03);
+	transition-delay: 0.2s;
 }
 
 .box * {
@@ -207,7 +208,6 @@ a {
 }
 
 /*back end - front focused and project header */
-
 .second-header,
 .third-header {
 	letter-spacing: 3px;
