@@ -147,7 +147,7 @@ a {
 
 /*This is so I can add the image of a server to it (add later)*/
 .box-icon {
-	font-size: 6rem;
+	font-size: 5.5rem;
 	margin-bottom: 0.5rem;
 	background-image: linear-gradient(to right, #64495e, #4c5f9a);
 	background-clip: text;
@@ -246,7 +246,7 @@ a {
 
 .heading-main--second {
 	display: block;
-	font-size: 2.5rem;
+	font-size: 1.9rem;
 	font-weight: 400;
 	letter-spacing: 0.3rem;
 	animation: rightIn 0.8s ease-out;
