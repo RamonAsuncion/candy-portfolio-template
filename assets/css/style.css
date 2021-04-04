@@ -72,15 +72,6 @@ html {
 	}
 }
 
-/*leads to the Jump bros game"*/
-.temporary-box {
-	position: absolute;
-	right: 0;
-	top: 0;
-	margin-right: 25px;
-	margin-top: 25px;
-}
-
 /*for usage for no duplicates of these in code*/
 .center-text {
 	text-align: center;
@@ -99,11 +90,6 @@ html {
 /*for usage for no duplicates of these in code*/
 .margin-bottom-small {
 	margin-bottom: 1.5rem;
-}
-
-/*part of the headers*/
-.center-text {
-	text-align: center;
 }
 
 /*full body tag*/
@@ -133,7 +119,7 @@ a {
 	font-size: 1.5rem;
 	padding: 2.5rem;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 20px;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 	transition: transform 0.3s;
 }
@@ -143,16 +129,6 @@ a {
 		padding: 1rem;
 		margin: 0 4rem;
 	}
-}
-
-/*This is so I can add the image of a server to it (add later)*/
-.box-icon {
-	font-size: 5.5rem;
-	margin-bottom: 0.5rem;
-	background-image: linear-gradient(to right, #64495e, #4c5f9a);
-	background-clip: text;
-	-webkit-background-clip: text;
-	color: transparent;
 }
 
 @media (max-width: 56em) {
@@ -182,8 +158,8 @@ a {
 	height: 95vh; /*view port height meaning no matter how the browser is sized*/
 	background-image: linear-gradient(
 			to right bottom,
-			rgba(191, 149, 192, 0.938),
-			rgba(71, 3, 80, 0.6)
+			#e66465,
+			#9198e5
 		),
 		url(../images/nice.gif);
 	background-size: cover;
@@ -208,14 +184,13 @@ a {
 }
 
 /*"back end text" - front focused and project header */
-.second-header,
-.third-header {
+.second-header, .third-header {
 	letter-spacing: 3px;
 	font-size: 3.5rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
-	background-image: linear-gradient(to right, #64495e, #4c5f9a);
+	background-image: linear-gradient(to right, #e66465, #9198e5);
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
@@ -417,8 +392,8 @@ button:visited {
 	padding: 19rem 0;
 	background-image: linear-gradient(
 			to right bottom,
-			rgba(142, 57, 153, 0.75),
-			rgba(30, 115, 172, 0.75)
+			#e66465,
+			#9198e5
 		),
 		url(../images/city.jpg);
 	background-size: cover;
@@ -454,7 +429,7 @@ button:visited {
 .footer {
 	font-size: 1.5rem;
 	padding: 2rem 0;
-	background-color: #4c5f9b;
+	background-color: #A88AC2;
 	/*top and bottom 2rem/ right and left 0*/
 }
 
@@ -515,7 +490,8 @@ button:visited {
 	border-top: 1px solid #f1f1f1;
 	padding-top: 2rem;
 	float: right;
-	color: #a6ff00;
+	color: #00ffc8;
+	text-transform: uppercase;
 }
 
 @media (max-width: 56em) {
