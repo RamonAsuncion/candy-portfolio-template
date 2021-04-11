@@ -161,7 +161,7 @@ a {
 			#e66464e5,
 			#9198e5e5
 		),
-		url(../images/nice.gif);
+		url(../images/pixel_art.jpg);
 	background-size: cover;
 	background-position: top;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -399,7 +399,7 @@ button:visited {
 			#e66465e5,
 			#9198e5e5
 		),
-		url(../images/city.jpg);
+		url(../images/mountain.gif);
 	background-size: cover;
 	margin-top: -19rem;
 	transform: skewY(-5deg);
