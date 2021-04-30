@@ -5,7 +5,12 @@
 }
 
 html {
-	font-size: 62.5%;
+	font-size: 65%;
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
 }
 
 @media (max-width: 75em) {
@@ -22,11 +27,6 @@ html {
 	html {
 		font-size: 75%;
 	}
-}
-
-#container {
-	width: 90%;
-	margin: 0 auto;
 }
 
 /*Keyframes (transition for the intro)*/
@@ -72,6 +72,19 @@ html {
 	}
 }
 
+#background {
+	background-color: white;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888888;
+}
+
 /*for usage for no duplicates of these in code*/
 .center-text {
 	text-align: center;
@@ -91,30 +104,25 @@ html {
 .margin-bottom-small {
 	margin-bottom: 1.5rem;
 }
-
 /*full body tag*/
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 1.7;
 	color: #777777;
 }
 
-#background {
-	background-color: white;
-}
-
 a {
+	font-family: 'Roboto', sans-serif;
 	font-size: 17px;
 	text-decoration: none;
 	color: #ffffff;
-	font-family: 'Lato', sans-serif;
 }
 
 /*skill boxes*/
 .box {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: rgba(255, 255, 255, 0.8);
 	font-size: 1.5rem;
 	padding: 2.5rem;
@@ -148,14 +156,14 @@ a {
 
 /*the header (hard work and not giving up*/
 .section-text {
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 /*part of the <head> tag*/
 .header {
-	height: 95vh; /*view port height meaning no matter how the browser is sized*/
+	height: 125vh; /*view port height meaning no matter how the browser is sized*/
 	background-image: linear-gradient(
 			to right bottom,
 			#e66464e5,
@@ -164,15 +172,6 @@ a {
 		url(../images/pixel_art.jpg);
 	background-size: cover;
 	background-position: top;
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-	clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-}
-
-@media (max-width: 56em) {
-	.header {
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
-		clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
-	}
 }
 
 .header-text-box {
@@ -201,7 +200,7 @@ a {
 }
 
 .heading-primary {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
 	text-transform: uppercase;
 	margin-bottom: 2.5rem;
@@ -239,8 +238,8 @@ a {
 
 .about-section {
 	background-color: #f7f7f7;
-	padding: 20rem 0;
-	margin-top: -25vh;
+	padding: 5rem 0 40rem;
+	margin-top: -5vh;
 	margin-bottom: 10vh;
 }
 
@@ -305,7 +304,7 @@ a {
 	}
 }
 
-/*layout of website*/
+/* The Front end and back end boxes*/ 
 .row .col-1-2 {
 	width: calc((100% - 5rem) / 2);
 }
@@ -318,7 +317,7 @@ button:visited {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	border-radius: 9rem;
+	border-radius: 2rem;
 	transition: all 0.2s;
 }
 
@@ -360,8 +359,7 @@ button:visited {
 
 /*java.png and python.png*/
 .composition-photo {
-	width: 50%;
-	-webkit-filter: drop-shadow(1px 1px 2px #222222);
+	width: 45%;
 	border-radius: 2px;
 	position: absolute;
 	transition: all 0.3s;
@@ -385,7 +383,7 @@ button:visited {
 }
 
 .paragraph {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 
 .paragraph:not(:last-child) {
@@ -402,32 +400,19 @@ button:visited {
 		url(../images/mountain.gif);
 	background-size: cover;
 	margin-top: -19rem;
-	transform: skewY(-5deg);
-}
-
-.section-features > * {
-	transform: skewY(5deg);
+	margin-bottom: 10rem;
 }
 
 .section-projects {
-	margin-top: -19rem;
+	margin-top: -10rem;
 	background-color: #f7f7f7;
-	padding-top: 24rem;
+	padding-top: 4.5rem;
 }
 
 @media (max-width: 56em) {
 	.section-projects {
 		padding: 24rem 0 10rem 0;
 	}
-}
-
-/*scroll bar*/
-::-webkit-scrollbar {
-	width: 7px;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #888888;
 }
 
 /*every below is for footer */
@@ -463,7 +448,7 @@ button:visited {
 }
 
 .footer-navigation {
-	border-top: 1px solid #f1f1f1;
+	border-top: .5px solid #f1f1f1;
 	padding-top: 2rem;
 	display: inline-block;
 	color: #f1f1f1;
@@ -472,7 +457,6 @@ button:visited {
 @media (max-width: 56em) {
 	.footer-navigation {
 		width: 100%;
-		text-align: center;
 	}
 }
 
@@ -489,21 +473,4 @@ button:visited {
 
 .footer-list-item:not(:last-child) {
 	margin-right: 1.5rem;
-}
-
-.created-by {
-	border-top: 1px solid #f1f1f1;
-	padding-top: 2rem;
-	float: right;
-	color: #00ffc8;
-	text-transform: uppercase;
-}
-
-@media (max-width: 56em) {
-	.created-by {
-		float: none;
-		width: 100%;
-		padding-top: 2rem;
-		text-align: center;
-	}
 }
