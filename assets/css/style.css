@@ -30,49 +30,6 @@ html {
 	}
 }
 
-/*Keyframes (transition for the intro)*/
-@keyframes topIn {
-	0% {
-		transform: translateY(-4rem);
-		opacity: 0;
-	}
-	75% {
-		transform: translateY(0.5rem);
-	}
-	100% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-}
-
-@keyframes leftIn {
-	0% {
-		transform: translateX(-4rem);
-		opacity: 0;
-	}
-	75% {
-		transform: translateX(0.5rem);
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
-}
-
-@keyframes rightIn {
-	0% {
-		opacity: 0;
-		transform: translateX(4rem);
-	}
-	75% {
-		transform: translateX(0.5rem);
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
-}
-
 /*scroll bar*/
 ::-webkit-scrollbar {
 	width: 7px;
@@ -206,7 +163,6 @@ a {
 	font-size: 6rem;
 	font-weight: 400;
 	letter-spacing: 0.6rem;
-	animation: leftIn 0.8s ease-out;
 }
 
 @media (max-width: 37em) {
@@ -221,7 +177,6 @@ a {
 	font-size: 1.9rem;
 	font-weight: 400;
 	letter-spacing: 0.3rem;
-	animation: rightIn 0.8s ease-out;
 }
 
 @media (max-width: 37em) {
@@ -312,7 +267,7 @@ button:visited {
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 2rem;
-	transition: all 0.2s;
+	transition: all 0.2s; 
 }
 
 /*on button hover*/
@@ -333,12 +288,6 @@ button:visited {
 	background-color: #ffffff;
 	color: #777;
 }
-
-.button-animate {
-	animation: topIn 0.7s ease-out 1s;
-	animation-fill-mode: backwards;
-}
-
 
 .composition {
 	position: relative;
