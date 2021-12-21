@@ -216,7 +216,7 @@ a {
 
 @media (max-width: 56em) {
 	.second-header {
-		margin-top: 7rem;
+		margin-top: -10rem;
 	}
 }
 
@@ -311,10 +311,10 @@ button:visited {
 @media (max-width: 56rem) {
 	.composition {
 		margin-bottom: 15rem;
+		width: 75%
 	}
 }
 
-/*java.png and python.png*/
 .composition-photo {
 	width: 45%;
 	border-radius: 2px;
