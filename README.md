@@ -1,4 +1,4 @@
-# Personal Website Portfolio Template
+# "Candy" Personal Website Portfolio Template
 
 This template is designed for personal portfolios, showcasing your skills and projects.
 
