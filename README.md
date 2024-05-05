@@ -1,4 +1,4 @@
-# "Candy" Personal Website Portfolio Template
+# "Warmth" Personal Website Portfolio Template
 
 This template is designed for personal portfolios, showcasing your skills and projects.
 
