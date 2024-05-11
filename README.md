@@ -2,7 +2,7 @@
 
 This template is designed for personal portfolios, showcasing your skills and projects.
 
-![Personal Page](./README_IMAGE_EXAMPLE.png)
+![Personal Page](https://raw.githubusercontent.com/RamonAsuncion/warmth-portfolio-template/master/README_IMAGE_EXAMPLE.png)
 
 ## Get Started
 
